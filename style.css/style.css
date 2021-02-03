@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  height: 1300px;
+  width: 90%;
+  margin: 60px;
+}
+.container .top {
+  height: 300px;
+  background-image: url(../dark-honeycomb/dark-honeycomb.png);
+  color: #ced4da;
+}
+.container .topleft {
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+.container .topleft img {
+  border-radius: 50px;
+}
+.container .topright {
+  width: 65%;
+  height: 100%;
+  float: right;
+  margin-right: 20px;
+  margin: auto;
+}
+.container .topright h1 {
+  font-size: 80px;
+}
+.container .topright h2 {
+  font-size: 50px;
+}
+
+.column {
+  width: 40%;
+  background-color: #e9ecef;
+  display: inline-block;
+  outline: 1px solid black;
+  padding: 20px;
+}
+
+.columntwo {
+  width: 53%;
+  background-color: #6c757d;
+  display: table;
+  clear: both;
+  float: right;
+  outline: 1px solid black;
+  padding: 20px;
+}
+
+.personal, .contact {
+  height: 350px;
+  background-color: #e9ecef;
+  width: 100%;
+}
+
+.contacttwo {
+  height: 541px;
+  width: 100%;
+  background-color: #6c757d;
+}
+
+.personaltwo {
+  height: 350px;
+  background-color: #6c757d;
+  width: 100%;
+}
+
+p {
+  font-size: 25px;
+}
+
+.maincontainer {
+  height: 850px;
+  background-color: #e9ecef;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
